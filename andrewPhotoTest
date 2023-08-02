@@ -1,0 +1,8 @@
+from tkinter import *
+window=Tk()
+canvas=Canvas(window)
+canvas.pack()
+#myImage=PhotoImage(file="chessboard.png")
+robotImage=PhotoImage(file="robotspace50.gif")
+myHandle=canvas.create_image( 250,100,image=robotImage)
+ 
